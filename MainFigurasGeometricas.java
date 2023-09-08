@@ -49,6 +49,7 @@ public class MainFigurasGeometricas {
             TrianguloRectangulo figura4=new TrianguloRectangulo(Base, Altura);
             System.out.println("El qrea del triangulo es = " + figura4.calcularArea());
             System.out.println("El perimetro del triangulo es = " + figura4.calcularPerimetro());
+            figura4.determinarTipoTriangulo();
         }
     }
 }
